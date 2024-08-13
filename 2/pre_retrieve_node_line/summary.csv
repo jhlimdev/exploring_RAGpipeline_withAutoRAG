@@ -1,0 +1,2 @@
+node_type,best_module_filename,best_module_name,best_module_params,best_execution_time
+query_expansion,9.parquet,query_decompose,"{'generator_module_type': 'llama_index_llm', 'llm': 'openai', 'model': 'gpt-4o-mini', 'temperature': 0.9}",0.1451386583262476
