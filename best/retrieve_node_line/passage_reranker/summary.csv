@@ -1,0 +1,6 @@
+filename,module_name,module_params,execution_time,passage_reranker_retrieval_f1,passage_reranker_retrieval_map,passage_reranker_retrieval_ndcg,is_best
+0.parquet,pass_reranker,{'top_k': 3},2.3044388869713094e-05,0.2413793103448276,0.35919540229885055,0.4490937591133045,False
+1.parquet,koreranker,{'top_k': 3},1.5990492804297085,0.2413793103448276,0.3936781609195402,0.5143623543103518,True
+2.parquet,upr,{'top_k': 3},2.0018642113126557,0.20689655172413793,0.2155172413793103,0.33291892302956166,False
+3.parquet,tart,{'top_k': 3},2.0108193446849953,0.22413793103448276,0.23563218390804597,0.32019236280788776,False
+4.parquet,cohere_reranker,"{'top_k': 3, 'api_key': '43RtNTRhGHl1NloaInNhVQpByw5hyuSSqwcf17Gc', 'batch': 64, 'model': 'rerank-multilingual-v2.0'}",0.028246443847130084,0.25862068965517243,0.3620689655172414,0.47536477660099125,False
