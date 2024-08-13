@@ -1,8 +1,0 @@
-filename,module_name,module_params,execution_time,retrieval_f1,retrieval_map,retrieval_ndcg,is_best
-0.parquet,vectordb,"{'top_k': 4, 'embedding_model': 'openai'}",0.0349695189245816,0.12413793103448276,0.21839080459770113,0.3063817976011247,False
-1.parquet,bm25,{'top_k': 4},0.0009810349036907327,0.20689655172413798,0.36494252873563215,0.5084974222958415,True
-2.parquet,hybrid_rrf,"{'top_k': 4, 'weight': 3.0, 'target_modules': ('vectordb', 'bm25'), 'target_module_params': ({'top_k': 4, 'embedding_model': 'openai'}, {'top_k': 4})}",0.03595055382827233,0.21034482758620696,0.3505747126436781,0.393672699137938,False
-3.parquet,hybrid_cc,"{'top_k': 4, 'normalize_method': 'tmm', 'weight': 0.0, 'target_modules': ('vectordb', 'bm25'), 'target_module_params': ({'top_k': 4, 'embedding_model': 'openai'}, {'top_k': 4})}",0.03595055382827233,0.23793103448275865,0.35919540229885055,0.416469248125825,False
-4.parquet,hybrid_cc,"{'top_k': 4, 'normalize_method': 'mm', 'weight': 0.0, 'target_modules': ('vectordb', 'bm25'), 'target_module_params': ({'top_k': 4, 'embedding_model': 'openai'}, {'top_k': 4})}",0.03595055382827233,0.23793103448275865,0.35919540229885055,0.416469248125825,False
-5.parquet,hybrid_cc,"{'top_k': 4, 'normalize_method': 'dbsf', 'weight': 0.0, 'target_modules': ('vectordb', 'bm25'), 'target_module_params': ({'top_k': 4, 'embedding_model': 'openai'}, {'top_k': 4})}",0.03595055382827233,0.23793103448275865,0.35919540229885055,0.416469248125825,False
-6.parquet,hybrid_cc,"{'top_k': 4, 'normalize_method': 'z', 'weight': 0.0, 'target_modules': ('vectordb', 'bm25'), 'target_module_params': ({'top_k': 4, 'embedding_model': 'openai'}, {'top_k': 4})}",0.03595055382827233,0.23793103448275865,0.35919540229885055,0.416469248125825,False
